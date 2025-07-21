@@ -14,6 +14,8 @@ spec:
         envFrom:
         - configMapRef:
             name: mykustom-map
+        - configMapRef:
+            name: mykustom-text
         resources:
           requests:
             memory: "16Mi" 
