@@ -6,6 +6,10 @@ configMapGenerator:
 - envs:
   - config.properties
   name: mykustom-map
+- files:
+    - test.txt
+  name: mykustom-text
+  behavior: create
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
