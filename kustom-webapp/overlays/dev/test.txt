@@ -1,0 +1,2 @@
+port_numbers=1234
+variable1=kucing
