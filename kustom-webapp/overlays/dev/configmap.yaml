@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mykustom-map
+  annotations:
+    argocd.argoproj.io/tracking-id: "my-app-config"
+    argocd.argoproj.io/compare-options: "IgnoreExtraneous"
