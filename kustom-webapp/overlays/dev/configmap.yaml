@@ -3,5 +3,6 @@ kind: ConfigMap
 metadata:
   name: mykustom-map
   annotations:
-    argocd.argoproj.io/tracking-id: "my-app-config"
-    argocd.argoproj.io/compare-options: "IgnoreExtraneous"
+#    argocd.argoproj.io/tracking-id: "my-app-config"
+#    argocd.argoproj.io/compare-options: "IgnoreExtraneous"
+    argocd.argoproj.io/sync-options: Replace=true
